@@ -12,12 +12,17 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "BrewHaven - Premium Specialty Coffee & Café",
   description: "Discover artisan coffee, cozy ambiance, and exceptional service at BrewHaven. Daily 7AM-9PM. Reserve your spot today.",
-  keywords: "specialty coffee, café, espresso, cappuccino, cold brew, barista, coffee shop",
+  keywords: ["specialty coffee", "café", "espresso", "cappuccino", "cold brew", "barista", "coffee shop"],
   openGraph: {
     title: "BrewHaven - Premium Specialty Coffee",
     description: "Artisan coffee and cozy atmosphere await you at BrewHaven",
     siteName: "BrewHaven",
     type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BrewHaven - Premium Specialty Coffee",
+    description: "Artisan coffee and cozy atmosphere await you at BrewHaven"
   },
   robots: {
     index: true,
@@ -34,7 +39,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
         <body
-          className={inter.variable}
+          className={`${inter.variable} antialiased`}
         >
           <Tag />
           {children}

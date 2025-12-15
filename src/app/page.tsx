@@ -10,7 +10,7 @@ import TestimonialCardThree from '@/components/sections/testimonial/TestimonialC
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import { Coffee, Leaf, Sparkles, Star, HelpCircle } from "lucide-react";
+import { Coffee, Leaf, Sparkles, Star, HelpCircle } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -27,12 +27,12 @@ export default function LandingPage() {
       headingFontWeight="extrabold"
     >
       <div id="nav" data-section="nav">
-        <NavbarStyleFullscreen
+        <NavbarStyleFullscreen 
           navItems={[
-            { name: "Home", id: "home" },
-            { name: "About", id: "about" },
-            { name: "Menu", id: "menu" },
-            { name: "Contact", id: "contact" }
+            {name: "Home", id: "home"},
+            {name: "About", id: "about"},
+            {name: "Menu", id: "menu"},
+            {name: "Contact", id: "contact"}
           ]}
           brandName="BrewHaven"
           bottomLeftText="Open Daily 7AM - 9PM"
@@ -41,23 +41,23 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroBillboard
+        <HeroBillboard 
           title="Welcome to BrewHaven"
           description="Discover the perfect blend of artisan coffee, cozy ambiance, and exceptional service. Your daily ritual starts here."
           tag="Specialty Coffee"
           tagIcon={Coffee}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815834456-p5h2vgo1.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816004659-le9arzeh.jpg"
           imageAlt="Modern coffeeshop interior"
           frameStyle="card"
           buttons={[
-            { text: "View Menu", href: "menu" },
-            { text: "Reserve a Table", href: "contact" }
+            {text: "View Menu", href: "menu"},
+            {text: "Reserve a Table", href: "contact"}
           ]}
         />
       </div>
 
       <div id="about" data-section="about">
-        <SplitAboutCards
+        <SplitAboutCards 
           title="Our Coffee Philosophy"
           description="We believe in sourcing the finest beans from sustainable farms and roasting them to perfection. Every cup tells a story of passion, craftsmanship, and community."
           tag="About Us"
@@ -81,7 +81,7 @@ export default function LandingPage() {
       </div>
 
       <div id="features" data-section="features">
-        <FeatureCardSeven
+        <FeatureCardSeven 
           title="Signature Drinks"
           description="Explore our carefully crafted signature beverages"
           tag="Menu Highlights"
@@ -94,21 +94,21 @@ export default function LandingPage() {
               id: 1,
               title: "Classic Espresso",
               description: "Rich, bold, and perfectly extracted. The foundation of all great coffee drinks.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815835736-bq98zctr.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816005933-fyb80bep.jpg",
               imageAlt: "Espresso with perfect crema"
             },
             {
               id: 2,
               title: "Silky Cappuccino",
               description: "Smooth espresso combined with velvety steamed milk and delicate foam.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815836994-0kw2iku0.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816006912-ryg2dz8t.jpg",
               imageAlt: "Cappuccino with latte art"
             },
             {
               id: 3,
               title: "Cold Brew Perfection",
               description: "Smooth and refreshing cold brew, perfect for any season or time of day.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815838200-jevfc2jd.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816007991-ebqi8b1n.jpg",
               imageAlt: "Cold brew coffee iced"
             }
           ]}
@@ -116,7 +116,7 @@ export default function LandingPage() {
       </div>
 
       <div id="menu" data-section="menu">
-        <ProductCardTwo
+        <ProductCardTwo 
           title="Our Menu"
           description="Handcrafted beverages and pastries to complement your coffee experience"
           tag="Specialty Selection"
@@ -134,7 +134,7 @@ export default function LandingPage() {
               price: "$4.50",
               rating: 5,
               reviewCount: "328",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815835736-bq98zctr.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816005933-fyb80bep.jpg",
               imageAlt: "Single origin americano"
             },
             {
@@ -144,7 +144,7 @@ export default function LandingPage() {
               price: "$5.00",
               rating: 5,
               reviewCount: "412",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815836994-0kw2iku0.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816006912-ryg2dz8t.jpg",
               imageAlt: "Artisan cappuccino"
             },
             {
@@ -154,7 +154,7 @@ export default function LandingPage() {
               price: "$4.75",
               rating: 5,
               reviewCount: "267",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815838200-jevfc2jd.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816007991-ebqi8b1n.jpg",
               imageAlt: "Cold brew coffee"
             }
           ]}
@@ -162,7 +162,7 @@ export default function LandingPage() {
       </div>
 
       <div id="testimonials" data-section="testimonials">
-        <TestimonialCardThree
+        <TestimonialCardThree 
           title="What Our Customers Say"
           description="Real feedback from coffee lovers who visit us daily"
           tag="Reviews"
@@ -177,7 +177,7 @@ export default function LandingPage() {
               name: "Sarah Mitchell",
               handle: "@coffeeaddict",
               testimonial: "BrewHaven has the best espresso in town. The baristas really know their craft and the atmosphere is perfect for working or meeting friends.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815843232-l620qguh.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816012255-5xchu92x.jpg",
               imageAlt: "Sarah Mitchell"
             },
             {
@@ -185,7 +185,7 @@ export default function LandingPage() {
               name: "James Chen",
               handle: "@jchen92",
               testimonial: "I've been coming here for three months and they remember my order. The quality is consistent and the coffee is always exceptional.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815844602-a6q7lumw.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816013138-0eqj2d60.jpg",
               imageAlt: "James Chen"
             },
             {
@@ -193,7 +193,7 @@ export default function LandingPage() {
               name: "Emma Rodriguez",
               handle: "@emmalovescoffee",
               testimonial: "The pastries pair perfectly with their coffee. It's my favorite spot for breakfast before work. Highly recommended!",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815845789-opflsr3c.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816014052-j4fruh0q.jpg",
               imageAlt: "Emma Rodriguez"
             },
             {
@@ -201,7 +201,7 @@ export default function LandingPage() {
               name: "Michael Park",
               handle: "@mpark_coffee",
               testimonial: "The cold brew is absolutely smooth and refreshing. Customer service is outstanding and they support local suppliers.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815846901-qjz1g040.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816014933-n0x2vuak.jpg",
               imageAlt: "Michael Park"
             }
           ]}
@@ -209,14 +209,14 @@ export default function LandingPage() {
       </div>
 
       <div id="faq" data-section="faq">
-        <FaqSplitMedia
+        <FaqSplitMedia 
           title="Frequently Asked Questions"
           description="Everything you need to know about BrewHaven"
           tag="Help"
           tagIcon={HelpCircle}
           textboxLayout="default"
           useInvertedBackground="noInvert"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815848113-rqhtan8z.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816015865-hp1g1sdx.jpg"
           imageAlt="Coffeeshop counter"
           mediaPosition="right"
           animationType="smooth"
@@ -246,63 +246,48 @@ export default function LandingPage() {
       </div>
 
       <div id="contact" data-section="contact">
-        <ContactSplitForm
+        <ContactSplitForm 
           title="Get In Touch"
           description="Have questions or want to reserve a table? Reach out to us and we'll get back to you within 24 hours."
           useInvertedBackground="noInvert"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765815849339-odhdenym.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765816017138-lebigbci.jpg"
           imageAlt="Cozy coffeeshop seating"
           mediaPosition="right"
           inputs={[
-            {
-              name: "name",
-              type: "text",
-              placeholder: "Your Name",
-              required: true
-            },
-            {
-              name: "email",
-              type: "email",
-              placeholder: "Your Email",
-              required: true
-            }
+            {name: "name", type: "text", placeholder: "Your Name", required: true},
+            {name: "email", type: "email", placeholder: "Your Email", required: true}
           ]}
-          textarea={{
-            name: "message",
-            placeholder: "Tell us what brings you in or ask a question...",
-            rows: 5,
-            required: true
-          }}
+          textarea={{name: "message", placeholder: "Tell us what brings you in or ask a question...", rows: 5, required: true}}
           buttonText="Send Message"
         />
       </div>
 
       <div id="footer" data-section="footer">
-        <FooterBaseCard
+        <FooterBaseCard 
           logoText="BrewHaven"
           columns={[
             {
               title: "Menu",
               items: [
-                { label: "Coffee Drinks", href: "#menu" },
-                { label: "Pastries", href: "#menu" },
-                { label: "About Our Beans", href: "#about" }
+                {label: "Coffee Drinks", href: "#menu"},
+                {label: "Pastries", href: "#menu"},
+                {label: "About Our Beans", href: "#about"}
               ]
             },
             {
               title: "Visit Us",
               items: [
-                { label: "Hours: 7AM - 9PM", href: "#" },
-                { label: "Reserve Table", href: "#contact" },
-                { label: "Catering Services", href: "#contact" }
+                {label: "Hours: 7AM - 9PM", href: "#"},
+                {label: "Reserve Table", href: "#contact"},
+                {label: "Catering Services", href: "#contact"}
               ]
             },
             {
               title: "Connect",
               items: [
-                { label: "Instagram", href: "https://instagram.com" },
-                { label: "Contact Us", href: "#contact" },
-                { label: "Newsletter", href: "#" }
+                {label: "Instagram", href: "https://instagram.com"},
+                {label: "Contact Us", href: "#contact"},
+                {label: "Newsletter", href: "#"}
               ]
             }
           ]}
